@@ -26,7 +26,7 @@ export default function App(){
     })
   }
 
-  // this are tghe functions
+  // this are the functions
 
   function deleteTodo(id){
     setTodos(currentTodos =>{

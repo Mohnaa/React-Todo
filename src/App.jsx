@@ -26,6 +26,8 @@ export default function App(){
     })
   }
 
+  // this are tghe functions
+
   function deleteTodo(id){
     setTodos(currentTodos =>{
       return currentTodos.filter(todo =>todo.id !==id)
